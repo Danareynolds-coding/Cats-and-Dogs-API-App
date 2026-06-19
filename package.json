@@ -2,16 +2,18 @@
   "name": "cats-and-dogs-api-app",
   "version": "1.0.0",
   "description": "* Page One: Form that pulls up Cat:cat: by Breed. Provides breed discription such as weight temperment, origin, life span and an image.   * Page Two: Form that pulls up Dog:dog: by Breed. Provides breed discription such as breed group, purpose bred for, temperment, origin, life span and an image.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev":"nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Danareynolds-coding/Cats-and-Dogs-API-App.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "reynolds",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
