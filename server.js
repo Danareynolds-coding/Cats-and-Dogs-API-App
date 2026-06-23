@@ -5,7 +5,7 @@ const helmet = require('helmet') //install helmet
 const cors = require('cors')  //istall cors
 const PORT = process.env.PORT ||3000 //set up port
 
-//set up security so api can API can get through
+//set up security so api can through
 server.use(helmet.contentSecurityPolicy({
   useDefaults:true,
   crossOriginResourcePolicy:false,
